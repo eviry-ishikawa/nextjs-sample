@@ -4,6 +4,6 @@ import { Sample } from '../src/components/Sample';
 describe('Sample', () => {
   test('h1要素', () => {
     const { getByText } = render(<Sample />);
-    expect(getByText('Hello world!')).toBeTruthy();
+    expect(getByText('Hello world!!')).toBeTruthy();
   });
 });
